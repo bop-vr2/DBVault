@@ -1,6 +1,6 @@
 [build]
 builder = "dockerfile"
-dockerfilePath = "railway/Dockerfile"
+dockerfilePath = "Dockerfile"
 
 [deploy]
 startCommand = "node server.js"
