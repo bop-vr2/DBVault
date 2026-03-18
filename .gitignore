@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+railway/node_modules/
+
+# Environment
+.env
+.env.local
+*.env
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Build
+dist/
+build/
+
+# Secrets — never commit these
+*.pem
+*.key
+service-account*.json
